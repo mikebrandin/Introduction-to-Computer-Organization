@@ -1,0 +1,41 @@
+Mike Brandin CPSC 2310 Lab 7
+
+1. Fill in the table below for every call to "fact". Each row
+represents the values of r1 and lr when line 3 executes and they are pushed
+onto the stack. The first time it executes, r1 is unset and the lr points to line 39.
+
+r1	lr
+---	-------
+_	39
+10	12
+9   12  
+8   12
+7   12
+6   12
+5   12
+4   12
+3   12
+2   12
+1   14
+
+
+
+2. In "fac.s", the multiply instruction on line 12 comes after a "bl" which is a branch that will always be taken. How does line 12 get executed if the "bl" is always taken?
+
+HINT: Review what "bl" does at http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0489c/Cihfddaf.html (scroll down to "Operations")
+
+    The branch and link (bl) instruction inside the nested subroutine overwrites the address of the instruction stored in the link register (lr) to the next instruction after bl (mul  r0, r1, r0).
+ 
+
+3. Why doesn't the code in "fac2.s" save any registers on the stack? What is it doing instead?
+
+    The register values are overwritten through iteration so there is no need to store the registers in the stack.
+
+
+4. Identify which program calculates the factorial recursively and which is iterative.
+
+    fac.s is recursive and fac2.s is iterative.
+
+NOTE: The comments for "main:" in "fac.s" are already done for you and you do not have to comment "main:" in "fac2.s".
+
+test

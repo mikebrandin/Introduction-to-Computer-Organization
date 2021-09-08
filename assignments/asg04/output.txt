@@ -1,0 +1,36 @@
+
+Testing key1:  a sample key
+---------------------------
+original :  this is a test of the encoding algorithm
+encoded:  uhbt ye a ydtt ps fme jmdowjaw flrtqjtan
+decoded:  this is a test of the encoding algorithm
+
+Testing key2:  a better encoding key
+------------------------------------
+original :  this is a test of the encoding algorithm
+encoded:  uhkx cx a hhhx cm emd ephixnfg oovsawahx
+decoded:  this is a test of the encoding algorithm
+
+Testing key1:  a sample key
+---------------------------
+original :  work expands to fit the time available
+encoded:  xokl ujuayir th syf tsj uiff qhfiwfame
+decoded:  work expands to fit the time available
+
+Testing key2:  a better encoding key
+------------------------------------
+original :  work expands to fit the time available
+encoded:  xotp ychasrv xx mie sie ycgj aaolaekzl
+decoded:  work expands to fit the time available
+
+Testing key1:  a sample key
+---------------------------
+original :  a short phrase
+encoded:  b libhf pswzte
+decoded:  a short phrase
+
+Testing key2:  a better encoding key
+------------------------------------
+original :  a short phrase
+encoded:  b umily pmfdhi
+decoded:  a short phrase
